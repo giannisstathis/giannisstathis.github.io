@@ -159,6 +159,16 @@ input, select, textarea {
 	h3 {
 		font-size: 1.25em;
 		line-height: 1.5em;
+		text-align: center;
+	}
+
+	h3:after {
+		content: "";
+		display: block;
+		border-bottom: 1px solid #FE7E17;
+		width: 30%;
+		margin: auto;
+		padding-bottom: 16px;
 	}
 
 	h4 {
@@ -172,7 +182,7 @@ input, select, textarea {
 	}
 
 	h6 {
-		font-size: 0.7em;
+		font-size: 1.25em;
 		line-height: 1.5em;
 	}
 
