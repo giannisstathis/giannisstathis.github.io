@@ -110,7 +110,7 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		border-bottom: dotted 1px;
+		/* border-bottom: dotted 1px; */
 		color: #49bf9d;
 		text-decoration: none;
 	}
@@ -3237,4 +3237,15 @@ input, select, textarea {
 	background: url("../../images/bg_map2.png");
 	background-blend-mode: lighten;
 	background-color: rgba(255, 255, 255, 0.96);
+}
+
+.espa {
+	top: 18px;
+	right: 10px;
+	position: absolute;
+	text-align: right;
+}
+
+.espa img {
+	max-width: 50%;
 }
